@@ -1,0 +1,298 @@
+
+.main-content-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    gap: 30px; 
+    padding: 30px; 
+    background-color: #f8f8f8; 
+    min-height: 100vh; 
+}
+
+.tickets-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+
+/*****************/
+
+.ticket-card {
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+    border: 1px solid #e0e0e0; 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ticket-card:hover {
+    transform: translateY(-2px);
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1em; 
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+    max-width: 80%; 
+}
+
+
+.card-status {
+    padding: 4px 10px;
+    border-radius: 20px; 
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    align-self: flex-start; 
+}
+
+.status-open {
+    background-color: #48bb78; 
+    color: white;
+}
+
+.status-in-progress {
+    background-color: #f6ad55; 
+    color: white;
+}
+
+.status-resolved {
+    background-color: #43bf6b; 
+    color: white;
+}
+
+
+.card-description {
+    font-size: 0.9em;
+    color: #718096; 
+    margin-bottom: 20px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
+    padding-top: 10px; 
+    border-top: 1px solid #f0f0f0; 
+    font-size: 0.8em;
+    color: #a0aec0; 
+}
+
+.details-left,
+.details-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.ticket-id {
+    font-weight: 600;
+    color: #2b6cb0; 
+}
+
+
+.card-priority {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.priority-high {
+    background-color: #fee2e2; 
+    color: #e53e3e; 
+}
+
+.priority-medium {
+    background-color: #fefcbf; 
+    color: #d69e2e; 
+}
+
+.priority-low {
+    background-color: #e6fffa; 
+    color: #319795; 
+}
+
+.assignee {
+    margin-right: 10px; 
+}
+
+.date {
+    display: flex; 
+    align-items: center;
+    gap: 5px; 
+}
+
+/****************/
+
+.task-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.task-status-card,
+.resolved-task-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.sidebar-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+.sidebar-text {
+    font-size: 0.9em;
+    color: #718096;
+    margin: 0;
+}
+
+
+.task-item {
+    margin-bottom: 15px;  
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 10px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-item:last-child {
+    margin-bottom: 0;
+}
+
+.task-title {
+    font-size: 0.95em; 
+    font-weight: 500;
+    color: #4a5568;
+    margin: 0;
+    text-align: left; 
+}
+
+.complete-button {
+    width: 100%; 
+    background-color: #48bb78; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px; 
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.complete-button:hover {
+    background-color: #38a169;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.resolved-item {
+    background-color: #e0e7ff; 
+    border-radius: 6px;
+    padding: 10px 12px; 
+    margin-bottom: 10px;
+    border: 1px solid #c3dafe;
+}
+
+.resolved-item:last-child {
+    margin-bottom: 0;
+}
+
+.resolved-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #2c5282; 
+}
+
+
+/******************/
+
+@media (max-width: 1024px) {
+   
+    .main-content-wrapper {
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-content-wrapper {
+        grid-template-columns: 1fr; 
+        padding: 15px; 
+        gap: 20px;
+    }
+
+   
+    .tickets-grid-container {
+        grid-template-columns: 1fr; 
+        gap: 15px;
+    }
+
+    
+    .card-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .details-left {
+       
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .details-right {
+        
+        width: 100%;
+        justify-content: space-between;
+    }
+
+  
+    .sidebar-title {
+        font-size: 1.05em;
+    }
+
+    .task-title,
+    .resolved-title {
+        font-size: 1em;
+    }
+}

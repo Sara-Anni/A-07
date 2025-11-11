@@ -1,0 +1,128 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still encounter an error message saying 'Invalid Credentials'.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance. They've confirmed the card is active and details are correct.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": "#1003",
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section. The download button appears greyed out and clicking it does nothing, though the February invoice downloaded fine.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/17/2024"
+  },
+  {
+    "id": "#1004",
+    "title": "Incorrect Billing Address",
+    "description": "Customer's billing address shows a different city (Oldtown) than the one they updated (New City). They updated it yesterday but it still displays the old one on the 'Account Settings' page.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/18/2024"
+  },
+  {
+    "id": "#1005",
+    "title": "Email Notifications Not Working",
+    "description": "Customer is not receiving any transactional emails, such as order confirmations or password reset links. They have checked their spam folder and confirmed the email address is correct.",
+    "customer": "Alex Rodriguez",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/19/2024"
+  },
+  {
+    "id": "#1006",
+    "title": "Feature Request: Export Data to CSV",
+    "description": "Customer would like to request a new feature that allows them to export their historical usage data into a CSV file format for external analysis.",
+    "customer": "Jessica Lee",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/20/2024"
+  },
+  {
+    "id": "#1007",
+    "title": "Application Crashing on Mobile",
+    "description": "The mobile application (iOS version) crashes immediately upon opening the 'Statistics' tab. This started happening after the latest app update (v3.2).",
+    "customer": "David Wilson",
+    "priority": "HIGH PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/21/2024"
+  },
+  {
+    "id": "#1008",
+    "title": "Subscription Cancellation Error",
+    "description": "Customer is attempting to cancel their monthly subscription but receives an error message 'System Error 500' every time they click the 'Confirm Cancellation' button.",
+    "customer": "Megan King",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "1/22/2024"
+  },
+  {
+    "id": "#1009",
+    "title": "Duplicate Charges on Statement",
+    "description": "Customer reports being charged twice for their service on 1/15/2024. Both transactions appear identical on their bank statement.",
+    "customer": "Robert Chen",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/23/2024"
+  },
+  {
+    "id": "#1010",
+    "title": "Broken Link on Help Center",
+    "description": "The link titled 'How to Update Payment Information' in the main FAQ section leads to a 404 error page. Needs to be corrected.",
+    "customer": "Laura Miller",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/24/2024"
+  },
+  {
+    "id": "#1011",
+    "title": "Incorrect Display Name",
+    "description": "Customer's display name is showing up as 'User123' instead of 'Katherine Harris' on their profile and in public forums, despite them updating the name in settings.",
+    "customer": "Katherine Harris",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/25/2024"
+  },
+  {
+    "id": "#1012",
+    "title": "Slow Loading Times on Dashboard",
+    "description": "The main user dashboard takes over 20 seconds to load, particularly during peak hours (10 AM - 2 PM UTC). This started occurring this week.",
+    "customer": "James Foster",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/26/2024"
+  },
+  {
+    "id": "#1013",
+    "title": "Cannot Upload Profile Picture",
+    "description": "Customer is unable to upload a new profile picture. They receive a generic 'Upload Failed' message regardless of the file format or size used.",
+    "customer": "Chloe Baker",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "1/27/2024"
+  },
+  {
+    "id": "#1014",
+    "title": "Question about API Documentation",
+    "description": "Customer is a developer seeking clarification on the rate limiting policy for the /v2/data endpoint, as it is not explicitly mentioned in the public API docs.",
+    "customer": "Daniel Velez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/28/2024"
+  }
+]
