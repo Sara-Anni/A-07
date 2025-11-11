@@ -2,6 +2,7 @@ import React from 'react';
 import './body.css';
 
 
+
 const Body = ({ tickets, taskStatusTickets, resolvedTickets, onTicketClick, onComplete }) => {
  
     const getStatusClass = (status) => {
@@ -54,6 +55,7 @@ const Body = ({ tickets, taskStatusTickets, resolvedTickets, onTicketClick, onCo
                             <p className="card-description">
                                 {ticket.description}
                             </p>
+
 
                             <div className="card-footer">
                                 <div className="details-left">
