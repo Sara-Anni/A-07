@@ -5,6 +5,8 @@ import twitter from '../assets/twitter.png';
 import linkedin from '../assets/linkedin.png';
 import gmail from '../assets/gmail.png';
 
+
+
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 py-10 px-10 md:px-20">
@@ -70,7 +72,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
   
       <div className="text-center text-gray-400 text-sm mt-6">
         © 2025 CS — Ticket System. All rights reserved.
